@@ -1,0 +1,295 @@
+/* HEADER */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  position: relative;
+  z-index: 1;
+  top: 70px;
+  width: 100%;
+  
+}
+
+.header {
+  background-color: #00af1c;
+  /*  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  position: fixed;
+  width: 100%;
+  top: -1%; */
+
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  /* right: 5px; */
+}
+
+/* .header nav{
+  display: flex;
+ 
+} */
+
+.header ul {
+  display: flex;
+  
+}
+
+.header li {
+  margin-left: 1rem;
+  list-style: none;
+  padding: 15px;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 25px;
+  margin-left: 20px; */
+  padding: 20px;
+ 
+}
+
+/* HOME */
+.home{
+ 
+  padding: 25px;
+}
+
+
+.home h2 {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9d15eb;
+  
+}
+
+.home p {
+  margin: 15px;
+}
+
+/* caja HOME */
+
+.home div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.home div img {
+  margin-left: 20px;
+}
+
+/* SERVICIOS */
+.servicios{
+ 
+  padding: 25px;
+}
+
+.servicios h2 {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ec45ac;
+}
+
+.servicios p {
+  margin: 15px;
+}
+
+/* caja SERVICIOS */
+
+
+.servicios div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.servicios div img {
+  margin-left: 20px;
+}
+
+/* lista servicios */
+.servicios ul li {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  margin-top: 20px;
+  margin-left: 45px;
+  
+}
+
+.slist-uno {
+  color: #9d15eb;
+}
+.slist-dos {
+  color: #838085;
+}
+.slist-tres {
+  color: #1c7710;
+}
+.slist-cuatro {
+  color: #a38e13;
+}
+
+/* FALTA TERMINAR................................. */
+
+/* PROTAFOLIO*/
+.portafolio{
+  
+  padding: 25px;
+}
+
+.portafolio h2 {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1cd17d;
+}
+
+.portafolio p {
+  margin: 15px;
+}
+
+/* caja PORTAFOLIO */
+
+.portafolio div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portafolio div img {
+  margin-left: 20px;
+}
+
+.portafolio ul li {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+   margin-top: 20px;
+  margin-left: 45px;
+}
+
+.plist-uno {
+  color: #1c7710;
+}
+.plist-dos {
+  color: #a38e13;
+}
+.plist-tres {
+  color: #9d15eb;
+}
+.plist-cuatro {
+  color: #838085;
+}
+
+/* CONTACTO*/
+.contacto{
+  padding: 25px;
+}
+
+.contacto h2 {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1ec2d8;
+}
+
+.contacto p {
+  margin: 15px;
+}
+
+/* input */
+.a {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.b {
+  width: 100%;
+  padding: 120px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* .contacto button {
+  display: flex;
+  margin: 15px;
+  background-color: white;
+  color: rgb(139, 34, 34);
+  border: 1px solid #84af4c;
+  padding: 15px;
+  font-size: 15px;
+} */
+
+.btn{
+  background-color: transparent;
+  width: 7em;
+  padding: 10px;
+  margin: 15px;
+  border: 0.5px solid #00af1c;
+  cursor: pointer;
+}
+
+.contacto a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #00af1c;
+}
+
+/* footer */
+.footer {
+  background-color: #00af1c;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer li {
+  margin-left: 1rem;
+  list-style: none;
+}
+
+.footer nav li {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foo {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 37em;
+}
+
